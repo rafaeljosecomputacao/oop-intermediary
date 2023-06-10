@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkersControl", "WorkersControl\WorkersControl.csproj", "{9DA708B7-BC1C-4D57-9E04-9311F41C6615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkersControl", "WorkersControl\WorkersControl.csproj", "{9DA708B7-BC1C-4D57-9E04-9311F41C6615}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialNetwork", "SocialNetwork\SocialNetwork.csproj", "{DCA68F10-4628-40BD-B647-F1EC72121A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket", "Supermarket\Supermarket.csproj", "{02BBDDF4-C71B-44E2-9D9D-B36986141FAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9DA708B7-BC1C-4D57-9E04-9311F41C6615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA708B7-BC1C-4D57-9E04-9311F41C6615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA708B7-BC1C-4D57-9E04-9311F41C6615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA68F10-4628-40BD-B647-F1EC72121A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA68F10-4628-40BD-B647-F1EC72121A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA68F10-4628-40BD-B647-F1EC72121A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA68F10-4628-40BD-B647-F1EC72121A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BBDDF4-C71B-44E2-9D9D-B36986141FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BBDDF4-C71B-44E2-9D9D-B36986141FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BBDDF4-C71B-44E2-9D9D-B36986141FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BBDDF4-C71B-44E2-9D9D-B36986141FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
