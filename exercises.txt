@@ -1,0 +1,254 @@
+Enumerations and composition
+
+Project: WorkersControl
+
+Read data for a worker with n contracts. Then request of the user a month and
+show what was the salary of the worker in that month, as an example.
+
+Example:
+Enter department's name: Design
+Enter worker data:
+Name: Alex
+Level (Junior/MidLevel/Senior): MidLevel
+Base salary: 1200.00
+How many contracts to this worker? 3
+Enter #1 contract data:
+Date (DD/MM/YYYY): 20/08/2018
+Value per hour: 50.00
+Duration (hours): 20
+Enter #2 contract data:
+Date (DD/MM/YYYY): 13/06/2018
+Value per hour: 30.00
+Duration (hours): 18
+Enter #3 contract data:
+Date (DD/MM/YYYY): 25/08/2018
+Value per hour: 80.00
+Duration (hours): 10
+
+Enter month and year to calculate income (MM/YYYY): 08/2018
+Name: Alex
+Department: Design
+Income for 08/2018: 3000.00
+
+Project: SocialNetwork
+
+Create a social network project and manually instantiate the objects, as an example.
+
+Example:
+Traveling to New Zealand
+12 Likes - 21/06/2018 13:05:44
+I'm going to visit this wonderful country
+Comments:
+Have a nice trip!
+Wow that's awesome!
+
+Good night guys
+5 Likes - 28/07/2018 23:14:19
+See you tomorrow
+Comments:
+Good night!
+May the force be with you!
+
+Project: Supermarket
+
+Read data from an order with n items. Then show a order summary as an example.
+
+Example:
+Enter cliente data:
+Name: Alex Green
+Email: alex@gmail.com
+Birth date (DD/MM/YYYY): 15/03/1985
+Enter order data:
+Status: Processing
+How many items to this order? 2
+Enter #1 item data:
+Product name: TV
+Product price: 1000.00
+Quantity: 1
+Enter #2 item data:
+Product name: Mouse
+Product price: 40.00
+Quantity: 2
+
+ORDER SUMMARY:
+Order moment: 20/04/2018 11:25:09
+Order status: Processing
+Client: Alex Green (15/03/1985) - alex@gmail.com
+Order items:
+TV, $1000.00, Quantity: 1, Subtotal: $1000.00
+Mouse, $40.00, Quantity: 2, Subtotal: $80.00
+Total price: $1080.00
+
+Inheritance and polymorphism
+
+Project: Company
+
+A company has its own employees and outsourced employees. For each employee,
+record name, hours worked and value per hour. Outsourced employees still have
+an additional expense. Employee pay corresponds to the value per hour
+multiplied by the hours worked, with the outsourced employees still receive
+a bonus corresponding to 110% of your additional expense. Write a program to
+read the data of n employees. After to read all the data, show the name and
+payment of each employee in the same order in which they were entered.
+
+Example:
+Enter the number of employees: 3
+Employee #1 data:
+Outsourced (y/n)? n
+Name: Alex
+Hours: 50
+Value per hour: 20.00
+Employee #2 data:
+Outsourced (y/n)? y
+Name: Bob
+Hours: 100
+Value per hour: 15.00
+Additional charge: 200.00
+Employee #3 data:
+Outsourced (y/n)? n
+Name: Maria
+Hours: 60
+Value per hour: 20.00
+
+Payments:
+Alex - $ 1000.00
+Bob - $ 1720.00
+Maria - $ 1200.00
+
+Project: Store
+
+Write a program to read the data from n products. At end, show the price tag
+of each product on the same order in which they were entered. Every product
+has a name and price. Products imports have a customs fee, and used products
+have a manufacturing date.
+
+Example:
+Enter the number of products: 3
+Product #1 data:
+Common, used or imported (c/u/i)? i
+Name: Tablet
+Price: 260.00
+Customs fee: 20.00
+Product #2 data:
+Common, used or imported (c/u/i)? c
+Name: Notebook
+Price: 1100.00
+Product #3 data:
+Common, used or imported (c/u/i)? u
+Name: Iphone
+Price: 400.00
+Manufacture date (DD/MM/YYYY): 15/03/2017
+
+Price tags:
+Tablet $ 280.00 (Customs fee: $ 20.00)
+Notebook $ 1100.00
+Iphone (used) $ 400.00 (Manufacture date: 15/03/2017)
+
+Project: BankAccount
+
+Make a bank account program where the super-class Account has sub-classes SavingsAccount
+and BusinessAccount. The main program should show the total balance of all accounts.
+Then withdraw 10.00 from all accounts and update the account balance.
+
+Example:
+Total balance: 2000.00
+
+Updated balance for account 1001: 983.00
+Updated balance for account 1002: 985.00
+
+Project: ShapeArea
+
+Write a program to read data from n figures, and then display the areas of these
+figures in the same order in which they were entered.
+
+Example:
+Enter the number of shapes: 2
+Shape #1 data:
+Rectangle or Circle (r/c)? r
+Color (Black/Blue/Red): Black
+Width: 4.0
+Height: 5.0
+Shape #2 data:
+Rectangle or Circle (r/c)? c
+Color (Black/Blue/Red): Red
+Radius: 3.0
+
+Shape areas:
+20.00
+28.27
+
+Project: IncomeTax
+
+Write a program to read the data of n taxpayers, which they can be individual
+or company entities, and then show the amount of tax paid by each one, as well
+as the total tax collected. Individual data are name, annual income and health
+expenses. Company entity data are name, annual income and number of employees.
+Tax calculation rules:
+Individual: persons whose income was below 20000.00 pay 15% tax and persons with
+income from 20000.00 onwards pay 25% tax. If the person had health expenses, 50%
+of these expenses are deducted from the tax.
+Company: persons pay 16% tax. If the company has more than 10 employees, she
+pays 14% tax.
+ 
+Example:
+Enter the number of tax payers: 3
+Tax payer #1 data:
+Individual or company (i/c)? i
+Name: Alex
+Anual income: 50000.00
+Health expenditures: 2000.00
+Tax payer #2 data:
+Individual or company (i/c)? c
+Name: SoftTech
+Anual income: 400000.00
+Number of employees: 25
+Tax payer #3 data:
+Individual or company (i/c)? i
+Name: Bob
+Anual income: 120000.00
+Health expenditures: 1000.00
+
+Taxes paid:
+Alex: $ 11500.00
+SoftTech: $ 56000.00
+Bob: $ 29500.00
+
+Total taxes: $ 97000.00
+
+Exception handling
+
+Project: Hotel
+
+Write a program to read data from a hotel reservation (room number, check-in date
+and check-out date) and show the reservation data, including its duration in
+days. Then read new check-in and check-out dates, update the reservation, and show
+the reservation again with the updated data. Reservation changes can only occur
+for future dates. The check-out date must be greater than the check-in date.
+
+Example:
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2019
+Check-out date (dd/MM/yyyy): 29/09/2019
+Reservation: Room 8021, check-in: 24/09/2019, check-out: 29/09/2019, 5 nights
+
+Project: BankBranch
+
+Write a program to read data from a bank account and then perform a withdraw into
+this bank account, showing the new balance. A withdraw cannot take place if there
+is no balance in the account or if the withdraw amount is greater than the
+withdraw limit account.
+
+Example:
+Enter account data
+Number: 1002
+Holder: Maria Souza
+Initial balance: 500.00
+Withdraw limit: 300.00
+
+Enter amount for withdraw: 100.00
+New balance: 400.00

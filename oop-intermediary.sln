@@ -11,13 +11,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket", "Supermarket\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company", "Company\Company.csproj", "{FFEFF98A-C804-44A4-9E2A-4F54CD142990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{09169948-FEFE-4902-98FA-94AFD2245F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "Store\Store.csproj", "{09169948-FEFE-4902-98FA-94AFD2245F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{3C3CF6AC-1714-436D-83B7-392F3CD3F0C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{3C3CF6AC-1714-436D-83B7-392F3CD3F0C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\BankAccount.csproj", "{5E4C6C95-5983-44C3-810C-20442FF9805F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount", "BankAccount\BankAccount.csproj", "{5E4C6C95-5983-44C3-810C-20442FF9805F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTax", "IncomeTax\IncomeTax.csproj", "{B1578ACA-89B8-4374-A6BE-61750BD72907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncomeTax", "IncomeTax\IncomeTax.csproj", "{B1578ACA-89B8-4374-A6BE-61750BD72907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel", "Hotel\Hotel.csproj", "{341EF403-F8F6-46D9-B044-8FF11836E382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankBranch", "BankBranch\BankBranch.csproj", "{1988CC1B-3722-4312-8FB9-11E7779E2AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{E4AA7DB4-8692-4E85-A772-13DC5B77EF72}"
+	ProjectSection(SolutionItems) = preProject
+		exercises.txt = exercises.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +66,14 @@ Global
 		{B1578ACA-89B8-4374-A6BE-61750BD72907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1578ACA-89B8-4374-A6BE-61750BD72907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1578ACA-89B8-4374-A6BE-61750BD72907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341EF403-F8F6-46D9-B044-8FF11836E382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341EF403-F8F6-46D9-B044-8FF11836E382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341EF403-F8F6-46D9-B044-8FF11836E382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341EF403-F8F6-46D9-B044-8FF11836E382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1988CC1B-3722-4312-8FB9-11E7779E2AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1988CC1B-3722-4312-8FB9-11E7779E2AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1988CC1B-3722-4312-8FB9-11E7779E2AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1988CC1B-3722-4312-8FB9-11E7779E2AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
